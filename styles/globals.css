@@ -20,3 +20,21 @@ a {
 body {
   background-color: #88effd;
 }
+
+.setup {
+  border-bottom: 1px solid black;
+  margin-bottom: 6px;
+}
+
+.delivery {
+  margin-bottom: 6px;
+}
+
+.joke-btn {
+  position: fixed;
+  width: 180px;
+  bottom: 10%;
+  right: 43%;
+  margin-left: auto;
+  margin-right: auto;
+}
