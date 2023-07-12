@@ -1,3 +1,5 @@
+import Joke from './joke';
+
 function Home() {
   return (
     <div
@@ -9,7 +11,9 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      <h1>Welcome Home!</h1>
+      <Joke />
+      {/* <h1>Welcome Home!</h1>
+      <button type="button" onClick={Joke}>Get Started</button> */}
     </div>
   );
 }
